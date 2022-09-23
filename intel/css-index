@@ -1,0 +1,51 @@
+*
+Zerando margin e padding para ocupar todo o espaço possível da tela
+
+
+html,body
+	100vh e 100wh para utilizar todo o espaço possível da tela
+
+body
+	
+  CONFIGURAÇÕES DA IMAGEM DO BACKGROUND
+  - alterando background com background-image. 
+	- no-repeat para não ficar repetindo a imagem;
+	- top center para definir foco na imagem;
+	- size para definir o quanto da imagem será mostrado;
+	- attachment nesse caso não teve alteração porque não há rolagem
+
+
+main 
+DEFININDO COMO POSITION: RELATIVE PARA SERVIR DE PARÂMETRO PARA A POSITION DA SECTION
+
+
+section#telefone
+	
+CONFIGURAÇÃO DE CENTRALIZAÇÃO
+	
+	- position: Usando main como referência, absolute irá manter o tempo todo no centro da tela utilizando os parâmetros top e left e transform.
+
+	- transform: translate está deslocando para centralizar
+
+CONFIGURAÇÃO DE ALTURA E LARGURA DEFINIDAS NO GIMP
+	
+
+iframe#frame-tela
+
+CONFIGURAÇÃO DO IFRAME QUE ESTARÁ NA TELA DO IPHONE
+ - Utilizando relative para posicionar no iphone
+
+section#redes-sociais
+CONFIGURANDO POSIÇÃO DAS REDES SOCIAIS
+  - text align para alinhar a direita
+
+section#redes-sociais img
+CONFIGURANDO IMAGENS DA BARRA DE NAVEGAÇÃO
+  - border radius 50 para deixar a imagem redonda
+  - box-sizing faz com que a caixa já tenha um espaço pra borda, para não desclocar o resto o momento do hover;
+
+section#redes-sociais img:hover
+- dando uma borda as imagens quando passar o mouse por cima;
+- deslocando as imagens ao passar por cima;
+- aumentando a sombra ao passar o mouse;
+- transition está definindo um tempo de transição para que a configuração se efetue;
